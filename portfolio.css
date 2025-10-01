@@ -1,0 +1,89 @@
+/* *{
+    
+} */
+/* Mobile */
+@media (max-width: 600px){
+
+    body{
+        background:linear-gradient(#484E4D, #1F1B1B);
+    }
+    .head{
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .nav{
+        /* position: relative; */
+        margin-top: 1vh;
+        text-align: right;
+        font-size: 3vmin;
+        font-family: Rubik;
+        /* background-color: rgba(255, 255, 255, .5); */
+
+    }
+    .navbox{
+        background-color: rgba(255, 255, 255, .1);
+        padding-right: 1vmin;
+        padding-left: 1vmin;
+        padding-bottom: 1vmin;
+        padding-top: 1vmin;
+        border-radius: 3vmin;
+        
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        transition: font-size 0.2s;
+        margin-left: 1vmin;
+        margin-right: 1vmin;
+    }
+    a:hover{
+        background-color: rgba(255, 255, 255, .2);
+        font-size: 4vmin;
+        border-radius: 3vmin;
+        padding-right: 2vmin;
+        padding-left: 2vmin;
+        padding-bottom: 1vmin;
+        padding-top: 1vmin;
+    }
+    .logo{
+        /* width: 10vmin; */
+        position: relative;
+        height: 10vmin;
+        /* margin-top: 3vmin; */
+        margin-bottom: 0vmin;
+        filter: drop-shadow(1px 2px 2px #000000);
+    }
+    .logo:hover{
+        display: ;
+    }
+    .content{
+        border: 1px Solid black;
+        position: relative;
+        margin-top: 5vmin;
+        height: 80vh;
+        margin-left: 5vmin;
+        margin-right: 5vmin;
+        /* width: 10vmin; */
+    }
+}
+/* Tablet */
+@media (min-width: 600px) and (max-width: 768px){
+    body{
+        background-color: red;
+    }
+}
+/* Small Laptop */
+@media (min-width: 768px) and (max-width: 1024px){
+    body{
+        background-color: tan;
+    }
+}
+/* Desktop */
+@media (min-width: 1024px){
+    body{
+        background-color: #B35B5B;
+    }
+}
+
